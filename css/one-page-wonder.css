@@ -1,0 +1,80 @@
+/*!
+ * Start Bootstrap - One Page Wonder (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+ .bg-dark{
+  background-color: crimson !important;
+}
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+header.masthead {
+  background: url(socila_media.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+header.masthead>.overlay {
+  padding: 5rem 0;
+  text-align: center;
+
+  margin-top: -14px;
+}
+
+@media (min-width: 992px) {
+  header.masthead>.overlay {
+    padding: 10rem 0;
+  }
+}
+.py-5{
+  padding-bottom: 12px !important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+.navbar-dark .navbar-nav li:hover{
+ background-color: #fff;
+ transition: 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:crimson  !important;
+}
+.navbar-expand-lg{
+  padding: 1px;
+}
+.footer_part li{
+  list-style: none;
+  display: inline;
+  padding: 22px;
+}
+.footer_part ul{
+  margin-left: -69px;
+}
+.footer_part i{
+ color: #fff;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+.footer_part i:hover{
+ transform: scale(1.5);
+}
+
+.my_xp img:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+
+}
